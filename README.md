@@ -15,7 +15,7 @@ cd <br>
 sudo add-apt-repository ppa:webupd8team/atom <br>
 sudo apt update <br>
 sudo apt install atom <br>
-sudo apt remove --purge atom <br>
+
 
 
 
