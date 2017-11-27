@@ -1,3 +1,9 @@
+body {
+  font-family: ;
+  padding: 10px 40px;
+  background-color: #e5e4e2;
+}
+
 .header {
   background-image: url("dancers.jpg");
   background-size: cover;
@@ -13,11 +19,22 @@ section {
 
 .history {
   width: 20%;
+  float: left;
+  margin-right: 20px;
+  color: red;
 }
 
 .content {
-  width: 50%;
+  width: 60%;
   font-size: 1.3em;
+  float: left;
+}
+
+.demographics {
+  display: inline-block;
+  width: 10%;
+  vertical-align: top;
+  float: right;
 }
 
 .content>img {
@@ -38,23 +55,11 @@ section {
   padding: 15px;
   background-color: lightgray;
   height: 560px;
-  margin: 20px
 }
 
 hr {
   width: 75%;
   margin-top: 40px
-}
-
-body{
-  font-family: sans-serif;
-  padding: 10px 40px;
-  background-color: #e5e4e2
-}
-.demographics {
-  display: inline-block;
-  width: 10%;
-  vertical-align: top;
 }
 
 .alumni>h3 {
@@ -71,12 +76,13 @@ body{
   display: inline;
   margin: 20px;
   padding: 20px;
-  float:left;
+  float: left;
   width: 25%;
   background-color: #ccffff;
   height: 200px;
 }
-.alumni span{
+
+.alumni span {
   border-bottom: 2px solid #2b547e;
   margin: 10px 0;
   font-weight: bold;
