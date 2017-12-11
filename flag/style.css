@@ -1,0 +1,12 @@
+.stars{
+background-color: blue;
+}
+.container-fluid{
+  height: 700px;
+  grid-template-columns: 4fr 6fr;
+   grid-template-rows: 7fr 6fr;
+
+   grid-template-areas:
+         "stars stripes"
+         "stripes stripes"
+ }

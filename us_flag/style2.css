@@ -1,0 +1,38 @@
+
+
+
+.stars {
+  height: auto;
+  background-color: blue;
+/*   animation: wave 15s infinite linear; */
+}
+.stripeRed {
+  height: 50px;
+  width: 100%;
+  background-color: red;
+/*   animation: wave 15s infinite linear; */
+}
+.stripe {
+  padding: 0;
+
+}
+.stripeWhite {
+  height: 50px;
+  width: 100%;
+/*   animation: wave 15s infinite linear; */
+
+}
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+.star {
+  color: white;
+  text-align: center;
+  height: 38px;
+  font-size: 1.5em;
+}
+
+.starfive {
+  padding: 0 35px;
+}

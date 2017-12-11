@@ -1,0 +1,40 @@
+
+
+.flag{
+  height: 52.6vw;
+}
+.stars {
+  height: auto;
+  background-color: blue;
+/*   animation: wave 15s infinite linear; */
+}
+.stripeRed {
+  height: 4.048vw;
+  width: 100%;
+  background-color: red;
+/*   animation: wave 15s infinite linear; */
+}
+.stripes {
+  padding: 0;
+
+}
+.stripeWhite {
+  height: 4.048vw;
+  width: 100%;
+/*   animation: wave 15s infinite linear; */
+}
+
+.star {
+  color: white;
+  text-align: center;
+  height: 3.148vw;
+  font-size: 2.3vw;
+}
+
+.starfive {
+  padding: 0 2.5vw;
+}
+.test{
+  background-color: green;
+  height: 5vw;
+}
