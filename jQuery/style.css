@@ -1,0 +1,28 @@
+.fa-rocket, .fa-space-shuttle{
+font-size: 10vw;
+color: white;
+margin: 50px 20px;
+}
+.col{
+  text-align: center;
+
+}
+.card-img-top{
+  background-color: lightgreen;
+  /* margin-top: 20px; */
+}
+.row{
+  margin-top:  100px;
+}
+
+.container{
+  height: 100vh;
+}
+
+#rocket2{
+  opacity: 1;
+}
+#rocket2.disappear{
+  opacity: 0;
+  -webkit-transition: all 2s;
+}
