@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "sans-serif";
+}
+#brand{
+  font-size: 1.3em;
+    font-weight:800;
+}
+
+#k{
+  color: lightseagreen;
+}
+#t{
+  color: orange;
+}
+
+
+#home {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.navbar {
+  z-index: 3;
+}
+
+.text_row {
+  z-index: 2;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#why {
+  height: 100vh;
+  background-image: url('https://www.nasa.gov/sites/default/files/spain_portugalpsp.jpg');
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  padding-top: 56px;
+  color: white;
+  background-attachment: fixed;
+}
+#whyCode{
+  margin: auto;
+  margin-top: 20vh;
+  text-align: center;
+}
+#because{
+  font-size: 2em;
+}
+#eatingWorld{
+  font-size: 5em;
+  font-weight: 900;
+}
+#andreessen{
+font-size: 1.5em;
+background-color: rgba(255,0,0,0.3);
+width: 300px;
+padding: 5px 20px;
+margin: 0 auto;
+}
+#projects {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  padding-top: 56px;
+}
+#stack {
+  height: 100vh;
+  color: #21ace3;
+  padding-top: 20vh;
+}
+.stackCard{
+  text-align: center;
+  padding: 40px;
+  margin-top: 40px;
+}
+.stackCard>span{
+  font-size: 4em;
+}
+.stackCard img{
+  width: 60px;
+}
